@@ -1,4 +1,4 @@
-#include <stdlib.h>
+
 #include <stdio.h>
 float matriz1[3][3];
 float matriz2[3][3];
