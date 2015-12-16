@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+
+int fibo(int n)
+{
+    if(n == 0 || n == 1)
+       return n;
+    else
+       return fibo(n - 2) + fibo(n - 1);
+}
+
+int main()
+{ 
+    int i, num ;
+    
+    do
+    {
+        cout<<"Ingrese un numero: ";
+        cin>>num;
+        
+    } while(num < 0);
+    
+    
+    
+    for(i=0; i<num; i++)
+    {
+       if(fibo(i) != 0)
+
+        
+        cout<< fibo(i);       
+    }
+     
+    
+    return 0;
+}
